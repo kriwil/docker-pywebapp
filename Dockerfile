@@ -7,7 +7,7 @@ RUN apt-get -y update
 RUN apt-get -y install wget
 
 # base
-RUN apt-get install -y python-software-properties
+RUN apt-get install -y software-properties-common
 RUN apt-get install -y python-pip
 RUN apt-get install -y python-dev
 RUN apt-get install -y libpq-dev
